@@ -75,7 +75,7 @@ namespace Products.Controllers
             
         }
 
-        [HttpPut("decremet-stok/{id}/{quantity}")]
+        [HttpPut("decrement-stock/{id}/{quantity}")]
         public async Task<IActionResult> DecrementStock(int id, int quantity)
         {
 
@@ -98,7 +98,7 @@ namespace Products.Controllers
 
         }
 
-        [HttpPut("add-to-stok/{id}/{quantity}")]
+        [HttpPut("add-to-stock/{id}/{quantity}")]
         public async Task<IActionResult> AddToStock(int id, int quantity)
         {
 
