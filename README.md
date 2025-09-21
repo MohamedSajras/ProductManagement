@@ -68,7 +68,7 @@ Each product includes:
 
 ```bash
 git clone [https://github.com/your-username/product-api.git](https://github.com/MohamedSajras/ProductManagement.git)
-cd products
+cd Products
 dotnet restore
 dotnet ef database update
 dotnet run
