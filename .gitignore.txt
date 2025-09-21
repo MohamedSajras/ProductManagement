@@ -1,0 +1,67 @@
+## Ignore build results
+bin/
+obj/
+out/
+
+## Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore Visual Studio Code settings
+.vscode/
+
+## Ignore Rider settings
+.idea/
+
+## Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+## Ignore dotnet CLI artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Ignore ASP.NET temporary files
+*.dbmdl
+*.bak
+*.log
+*.ldf
+*.mdf
+
+## Ignore Entity Framework files
+Migrations/
+
+## Ignore publish output
+publish/
+*.pubxml
+*.publishproj
+
+## Ignore test results
+TestResults/
+*.trx
+
+## Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+## Ignore secrets and config
+secrets.json
+appsettings.*.json
+
+## Ignore global.json and SDK-specific files
+global.json
+
+## Ignore OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Ignore IDE-specific folders
+*.vs/
